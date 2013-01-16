@@ -21,7 +21,10 @@
       {% endif %}
       </ul>
     </div>
-    <hr>
+    <hr> 
+    <div class="post-sharing">
+      {% include JB/sharing %}
+    </div>
     {% include JB/comments %}
   </div>
   
@@ -35,6 +38,6 @@
     {% assign tags_list = page.tags %}
     {% include JB/tags_list %}
     </ul>
-  {% endunless %}  
+  {% endunless %}
   </div>
 </div>
