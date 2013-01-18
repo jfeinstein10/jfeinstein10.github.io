@@ -88,7 +88,7 @@ ul.posts span {
 }
 
 .title {
-    width: 40em;
+    width: 100%;
     vertical-align: middle;
     background: rgb(255, 255, 255);
     background: rgba(255, 255, 255, 0.85);
@@ -97,7 +97,7 @@ ul.posts span {
     color: #a00;
     font-weight: bold;
     margin-bottom: 2em;
-    z-index: 9999;
+    z-index: 500;
 }
 
 .extra {
