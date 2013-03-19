@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   id="Icon"
+   x="0px"
+   y="0px"
+   viewBox="176 76 48 48"
+   enable-background="new 176 76 48 48"
+   xml:space="preserve"
+   inkscape:version="0.48.3.1 r9886"
+   width="100%"
+   height="100%"
+   sodipodi:docname="fc-webicon-tumblr.svg"><metadata
+   id="metadata9653"><rdf:RDF><cc:Work
+       rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+         rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title></dc:title></cc:Work></rdf:RDF></metadata><defs
+   id="defs9651"><linearGradient
+     inkscape:collect="always"
+     xlink:href="#SVGID_1_"
+     id="linearGradient10164"
+     gradientUnits="userSpaceOnUse"
+     gradientTransform="matrix(4.1667,0,0,-4.1667,-273.3177,553.646)"
+     x1="71.3662"
+     y1="132.875"
+     x2="71.3662"
+     y2="121.375" /></defs><sodipodi:namedview
+   pagecolor="#ffffff"
+   bordercolor="#666666"
+   borderopacity="1"
+   objecttolerance="10"
+   gridtolerance="10"
+   guidetolerance="10"
+   inkscape:pageopacity="0"
+   inkscape:pageshadow="2"
+   inkscape:window-width="1280"
+   inkscape:window-height="750"
+   id="namedview9649"
+   showgrid="false"
+   inkscape:zoom="9.8333333"
+   inkscape:cx="6.8644068"
+   inkscape:cy="24"
+   inkscape:window-x="0"
+   inkscape:window-y="26"
+   inkscape:window-maximized="1"
+   inkscape:current-layer="Icon" />
+<linearGradient
+   id="SVGID_1_"
+   gradientUnits="userSpaceOnUse"
+   x1="71.3662"
+   y1="132.875"
+   x2="71.3662"
+   y2="121.375"
+   gradientTransform="matrix(4.1667 0 0 -4.1667 -97.3177 629.646)">
+	<stop
+   offset="0"
+   style="stop-color:#2F4E68"
+   id="stop9639" />
+	<stop
+   offset="1"
+   style="stop-color:#22394C"
+   id="stop9641" />
+</linearGradient>
+<path
+   style="fill:#000000;fill-opacity:1"
+   d="M 6.0625 0 C 2.7545 0 0.09375 2.693 0.09375 6 L 0.09375 41.9375 C 0.09375 45.2435 2.7545 47.90625 6.0625 47.90625 L 42 47.90625 C 45.306 47.90625 48 45.2445 48 41.9375 L 48 6 C 48 2.693 45.307 0 42 0 L 6.0625 0 z M 20.96875 7.3125 L 25.375 7.3125 L 25.375 15.84375 L 33.84375 15.84375 L 33.84375 21.1875 L 25.375 21.1875 L 25.375 32.1875 C 25.375 32.1875 25.20025 38.32875 34.78125 34.09375 L 34.78125 39.34375 C 34.78125 39.34375 31.471 40.59375 26.125 40.59375 C 20.778 40.59375 18.28125 37.80275 18.28125 34.46875 L 18.28125 21.0625 L 14.03125 21.0625 L 14.03125 16.84375 C 14.03125 16.84375 20.91675 14.3525 20.96875 7.3125 z "
+   transform="translate(176,76)"
+   id="path9643" />
+
+
+</svg>

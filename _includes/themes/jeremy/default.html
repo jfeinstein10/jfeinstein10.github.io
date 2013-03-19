@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <title>{{ page.title }}</title>
+  <meta name="author" content="{{ site.author.name }}" />
+
+  <!-- syntax highlighting CSS -->
+  <link rel="stylesheet" type="text/css" href="{{ ASSET_PATH }}/css/syntax.css">
+  <link rel="stylesheet" type="text/css" href="{{ ASSET_PATH }}/css/reset.css" media="all">
+  <link rel="stylesheet" type="text/css" href="{{ ASSET_PATH }}/css/style.css" media="all">
+  <link href='http://fonts.googleapis.com/css?family=Lato:400,300italic|Crete+Round' rel='stylesheet' type='text/css'>
+
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.1/jquery-ui.min.js"></script>
+  <script type="text/javascript" src="{{ ASSET_PATH }}/js/rotatescale.js"></script>
+  <script type="text/javascript" src="{{ ASSET_PATH }}/js/accordion.js"></script>
+
+</head>
+<body>
+
+  <div class="main">
+      <h1>{{ site.author.name }}</h1>
+
+      <p class="intro">By day, I study computer science. <br/> By night, I still do that... but I also contribute to the Open Source community. Let's see where I end up after school.</p>
+
+      <a href="http://github.com/jfeinstein10" class="tooltip" title="GitHub"><img class="social" src="{{ ASSET_PATH }}/images/bw-github.svg"></img></a>
+      <a href="http://www.linkedin.com/in/jeremyfeinstein" class="tooltip" title="LinkedIn"><img class="social" src="{{ ASSET_PATH }}/images/bw-linkedin.svg"></img></a>
+      <a href="https://www.facebook.com/jfeinstein10" class="tooltip" title="Facebook"><img class="social" src="{{ ASSET_PATH }}/images/bw-facebook.svg"></img></a>  
+      <a href="http://twitter.com/slidingmenu" class="tooltip" title="Twitter"><img class="social" src="{{ ASSET_PATH }}/images/bw-twitter.svg"></img></a>
+      <a href="https://plus.google.com/102743663990441974480" class="tooltip" title="Google+"><img class="social" src="{{ ASSET_PATH }}/images/bw-google.svg"></img></a>     
+      <a href="https://play.google.com/store/apps/developer?id=Jeremy+Feinstein" class="tooltip" title="Google Play"><img class="social" src="{{ ASSET_PATH }}/images/bw-play.svg"></img></a>
+      
+      <div class="accordion">
+        <div id="about">
+          <a class="accordion" href=""><div class="acc-title"><h2>About Me</h2><img class="arrow" src="{{ ASSET_PATH }}/images/arrow.svg"/></div></a>
+          <div class="acc-content">
+            <p>Hey everybody! I'm currently an undergraduate at Cornell University studying Computer Science. In my spare time, I'm a semi-professional Android developer, and I have several popular libraries out such as <a href="http://www.github.com/jfeinstein10/slidingmenu">SlidingMenu</a>, which is stunningly the 10th most popular Java project on GitHub. As for my professional aspirations, I'm interested in startups and projects involving applications of computer graphics and computer vision.<br/><br/>
+            If you have any opportunities that sound like a good fit or just want to chat, don't hesitate to contact me from the Contact section below. Thanks!</p>
+          </div>
+        </div>
+
+        <div class="clear"></div>
+
+        <div id="education">
+          <a class="accordion" href=""><div><h2 class="acc-title">Education</h2><img class="arrow" src="{{ ASSET_PATH }}/images/arrow.svg"/></div></a>
+          <div class="acc-content">
+            <table class="education" border="1">
+            <tr><td valign="baseline"><a href="http://www.cornell.edu"><img src="{{ ASSET_PATH }}/images/cornell.svg" class="edu" title="Cornell University"></img></a></td>
+            <td valign="baseline">
+              <h3>Cornell University - Class of 2014</h3>
+              <p>Major: Computer Science</p>
+              <p>Minor: Applied Mathematics</p>
+            </td></tr>
+            <tr><td valign="baseline"><a href="http://www.jerichoschools.org"><img src="{{ ASSET_PATH }}/images/jericho.png" class="edu" title="Jericho High School"></img></a></td>
+              <td valign="baseline">
+              <h3>Jericho High School - Class of 2010</h3>
+            </td></tr>
+            </table>
+          </div>
+        </div>
+
+        <div class="clear"></div>
+
+        <div id="experience">
+          <a class="accordion" href=""><div class="acc-title"><h2>Experience</h2><img class="arrow" src="{{ ASSET_PATH }}/images/arrow.svg"/></div></a>
+          <div class="acc-content">
+            <table class="education" border="1">
+            <tr><td><a href="http://www.aviary.com"><img src="{{ ASSET_PATH }}/images/aviary.png" class="edu" title="Aviary"></img></a></td>
+            <td valign="baseline">
+              <h3>Software Engineer Intern</h3>
+            </td></tr>
+            <tr><td><a href="http://www.github.com/jfeinstein10/slidingmenu"><img src="{{ ASSET_PATH }}/images/slidingmenu.png" class="edu" title="SlidingMenu"></img></a></td>
+            <td valign="baseline">
+              <h3>SlidingMenu - Creator & Maintainer</h3>
+            </td></tr>
+            <tr><td><a href="http://www.sonicpanther.fm"><img src="{{ ASSET_PATH }}/images/sonicpanther.png" class="edu" title="Sonicpanther"></img></a></td>
+            <td valign="baseline">
+              <h3>Android Developer</h3>
+            </td></tr>
+            <tr><td><a href="http://www.mopub.com"><img src="{{ ASSET_PATH }}/images/mopub.png" class="edu" title="MoPub"></img></a></td>
+            <td valign="baseline">
+              <h3>Software Engineer Intern</h3>
+            </td></tr>
+            <tr><td><a href="http://www.bnl.gov"><img src="{{ ASSET_PATH }}/images/brookhaven.jpg" class="edu" title="Brookhaven National Laboratory"></img></a></td>
+            <td valign="baseline">
+              <h3>Collider/Accelerator Department Intern</h3>
+            </td></tr>
+            </table>
+          </div>
+        </div>
+
+        <div class="clear"></div>
+
+        <div id="contact">
+          <a class="accordion" href=""><div class="acc-title"><h2>Contact</h2><img class="arrow" src="{{ ASSET_PATH }}/images/arrow.svg"/></div></a>
+          <div class="acc-content">
+          <fieldset style="clear:both" id="contact">
+            <p>
+              <label for="name">Name</label>
+              <input type="text" name="name" class="name" size="30" />
+            </p>
+            <p>
+              <label for="subject">Subject</label>
+              <input type="text" name="subject" class="subject" size="30" />
+            </p>
+            <p>
+              <label for="message">Message</label>
+              <textarea name="message" class="message" cols="30" rows="10"></textarea>
+            </p>
+
+            <p class="submit"><button class="send" type="submit">Send</button></p>
+
+          </fieldset>
+          <div>
+        </div>
+      </div>
+
+      <div class="clear"></div>
+
+      <p class="author">&copy; 2013 Jeremy Feinstein. All Rights Reserved.</p>
+    </div>
+</body>
+
+</html>
