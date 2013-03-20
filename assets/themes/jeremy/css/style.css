@@ -160,11 +160,7 @@ img.social:hover {
 }
 
 img.edu {
-	padding-bottom: 5px;
-	text-align: center;
-	display: block;
-	margin: auto;
-	float: left;
+	vertical-align: middle;
 	width: 90px;
 	max-height: 90px;
 	opacity: 0.75;
@@ -214,5 +210,11 @@ table.education td {
 	min-height: 90px;
 	vertical-align: top;
 	padding-right: 25px;
-	padding-top: 10px;
+	padding-top: 15px;
+}
+
+table.education .helper {	
+	line-height: 90px;
+	display: inline-block;
+  vertical-align: middle;
 }
