@@ -16,18 +16,25 @@ tagline: Homepage
 <a href="https://plus.google.com/102743663990441974480" class="tooltip" title="Google+"><img class="social" src="static/images/bw-google.svg"></img></a>     
 <a href="https://play.google.com/store/apps/developer?id=Jeremy+Feinstein" class="tooltip" title="Google Play"><img class="social" src="static/images/bw-play.svg"></img></a>
 
-<ul class="posts">
-  {% for post in site.posts %}
-    <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
-  {% endfor %}
-</ul>
-
 <div class="accordion">
   <div id="about">
     <a class="accordion" href=""><div class="acc-title"><h2>About Me</h2><img class="arrow" src="static/images/arrow.svg"/></div></a>
     <div class="acc-content">
 		<p>Hey everybody! I'm currently an undergraduate at Cornell University studying Computer Science. In my spare time, I'm a semi-professional Android developer, and I have several popular libraries out such as <a href="http://www.github.com/jfeinstein10/slidingmenu">SlidingMenu</a>, which is stunningly the 10th most popular Java project on GitHub. As for my professional aspirations, I'm interested in startups and projects involving applications of computer graphics and computer vision.<br/><br/>
 		If you have any opportunities that sound like a good fit or just want to chat, don't hesitate to contact me from the Contact section below. Thanks!</p>
+    </div>
+  </div>
+
+  <div class="clear"></div>
+
+  <div id="posts">
+    <a class="accordion" href=""><div class="acc-title"><h2>Posts</h2><img class="arrow" src="static/images/arrow.svg"/></div></a>
+    <div class="acc-content">
+			<dl class="posts">
+			  {% for post in site.posts %}
+			    <dt><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></dt>
+			  {% endfor %}
+			</dl>
     </div>
   </div>
 

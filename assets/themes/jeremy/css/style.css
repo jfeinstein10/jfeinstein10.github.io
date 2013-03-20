@@ -37,6 +37,10 @@ h1 {
 	text-transform: none;
 }
 
+h1.post {
+	margin-bottom: 15px;
+}
+
 
 h2 {
 	margin-top: 50px;
@@ -156,6 +160,9 @@ img.social:hover {
 }
 
 img.edu {
+	padding-bottom: 5px;
+	text-align: center;
+	display: block;
 	margin: auto;
 	float: left;
 	width: 90px;
@@ -203,8 +210,8 @@ input, textarea {
 }
 
 table.education td {
-	height: 100px;
-	min-height: 100px;
+	height: 90px;
+	min-height: 90px;
 	vertical-align: top;
 	padding-right: 25px;
 	padding-top: 10px;
