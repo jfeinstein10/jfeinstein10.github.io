@@ -92,7 +92,7 @@ p {
   overflow-y: hidden;
   border: 0px solid black;
   background-color: #e5e5e5;
-  background-image: url(http://uploads.webflow.com/530225c48075607120000b9d/533c66f406af5a9e40000274_skulls.png);
+  background-image: url(../images/skulls.png);
   -webkit-transition: opacity 200ms ease;
   -o-transition: opacity 200ms ease;
   transition: opacity 200ms ease;
@@ -170,12 +170,12 @@ p {
   transform: scale(1.05);
 }
 .icon.linkedin {
-  background-image: url(http://uploads.webflow.com/530225c48075607120000b9d/533c2cca8087a0ea39000f80_bw-linkedin.svg);
+  background-image: url(../images/bw-linkedin.svg);
 }
 .icon.github {
   margin-right: auto;
   margin-left: auto;
-  background-image: url(http://uploads.webflow.com/530225c48075607120000b9d/533c2bee653a28e839000e60_bw-github.svg);
+  background-image: url(../images/bw-github.svg);
   -webkit-transform: none;
   -ms-transform: none;
   -o-transform: none;
@@ -188,16 +188,16 @@ p {
   transform: scale(1.05);
 }
 .icon.twitter {
-  background-image: url(http://uploads.webflow.com/530225c48075607120000b9d/533c58faa370709d400000a1_bw-twitter.svg);
+  background-image: url(../images/bw-twitter.svg);
 }
 .icon.google {
-  background-image: url(http://uploads.webflow.com/530225c48075607120000b9d/533c59322d82e8116c00014f_bw-google.svg);
+  background-image: url(../images/bw-google.svg);
 }
 .icon.play {
-  background-image: url(http://uploads.webflow.com/530225c48075607120000b9d/533c593e2d82e8116c000153_bw-play.svg);
+  background-image: url(../images/bw-play.svg);
 }
 .icon.facebook {
-  background-image: url(http://uploads.webflow.com/530225c48075607120000b9d/533c595f31dd1b146c00018a_bw-facebook.svg);
+  background-image: url(../images/bw-facebook.svg);
 }
 .container-copyright {
   display: block;
@@ -251,109 +251,109 @@ p {
   clear: none;
 }
 .content-image.vim {
-  background-image: url(http://uploads.webflow.com/530225c48075607120000b9d/533c8d1a31dd1b146c000574_vim.png);
+  background-image: url(../images/vim.png);
   background-position: 50% 50%;
   background-size: contain;
   background-repeat: no-repeat;
 }
 .content-image.intellij {
-  background-image: url(http://uploads.webflow.com/530225c48075607120000b9d/533c8d212d82e8116c0004ed_intellij.jpg);
+  background-image: url(../images/intellij.jpg);
   background-position: 50% 50%;
   background-size: contain;
   background-repeat: no-repeat;
 }
 .content-image.android {
-  background-image: url(http://uploads.webflow.com/530225c48075607120000b9d/533c80f231dd1b146c000491_android.png);
+  background-image: url(../images/android.png);
   background-position: 50% 50%;
   background-size: contain;
   background-repeat: no-repeat;
 }
 .content-image.python {
-  background-image: url(http://uploads.webflow.com/530225c48075607120000b9d/533c80f82d82e8116c0003d1_python.png);
+  background-image: url(../images/python.png);
   background-position: 50% 50%;
   background-size: contain;
   background-repeat: no-repeat;
 }
 .content-image.opencv {
-  background-image: url(http://uploads.webflow.com/530225c48075607120000b9d/533c8d9ba370709d40000532_opencv.png);
+  background-image: url(../images/opencv.png);
   background-position: 50% 50%;
   background-size: contain;
   background-repeat: no-repeat;
 }
 .content-image.nodejs {
-  background-image: url(http://uploads.webflow.com/530225c48075607120000b9d/533c815331dd1b146c000498_nodejs.png);
+  background-image: url(../images/nodejs.png);
   background-position: 50% 50%;
   background-size: contain;
   background-repeat: no-repeat;
 }
 .content-image.cornell {
-  background-image: url(http://uploads.webflow.com/530225c48075607120000b9d/533c74ee31dd1b146c0003df_cornell.svg);
+  background-image: url(../images/cornell.svg);
   background-position: 50% 50%;
   background-size: contain;
   background-repeat: no-repeat;
 }
 .content-image.jericho {
-  background-image: url(http://uploads.webflow.com/530225c48075607120000b9d/533c787406af5a9e40000382_jericho.png);
+  background-image: url(../images/jericho.png);
   background-position: 50% 50%;
   background-size: contain;
   background-repeat: no-repeat;
 }
 .content-image.aviary {
-  background-image: url(http://uploads.webflow.com/530225c48075607120000b9d/533c7b9ca370709d400003f9_aviary.png);
+  background-image: url(../images/aviary.png);
   background-position: 50% 50%;
   background-size: contain;
   background-repeat: no-repeat;
 }
 .content-image.mopub {
-  background-image: url(http://uploads.webflow.com/530225c48075607120000b9d/533c7ba3a370709d400003fb_mopub.png);
+  background-image: url(../images/mopub.png);
   background-position: 50% 50%;
   background-size: contain;
   background-repeat: no-repeat;
 }
 .content-image.sonicpanther {
-  background-image: url(http://uploads.webflow.com/530225c48075607120000b9d/533c7ba806af5a9e400003e9_sonicpanther.png);
+  background-image: url(../images/sonicpanther.png);
   background-position: 50% 50%;
   background-size: contain;
   background-repeat: no-repeat;
 }
 .content-image.brookhaven {
-  background-image: url(http://uploads.webflow.com/530225c48075607120000b9d/533c7bc0a370709d40000401_brookhaven.jpg);
+  background-image: url(../images/brookhaven.jpg);
   background-position: 50% 50%;
   background-size: contain;
   background-repeat: no-repeat;
 }
 .content-image.slidingmenu {
-  background-image: url(http://uploads.webflow.com/530225c48075607120000b9d/533c7fbb2d82e8116c0003c3_slidingmenu.png);
+  background-image: url(../images/slidingmenu.png);
   background-position: 50% 50%;
   background-size: contain;
   background-repeat: no-repeat;
 }
 .content-image.beacon {
-  background-image: url(http://uploads.webflow.com/530225c48075607120000b9d/533c7fa831dd1b146c00047c_beacon.png);
+  background-image: url(../images/beacon.png);
   background-position: 50% 50%;
   background-size: contain;
   background-repeat: no-repeat;
 }
 .content-image.web {
-  background-image: url(http://uploads.webflow.com/530225c48075607120000b9d/533c915131dd1b146c0005b0_web.png);
+  background-image: url(../images/web.png);
   background-position: 50% 50%;
   background-size: contain;
   background-repeat: no-repeat;
 }
 .content-image.terminal {
-  background-image: url(http://uploads.webflow.com/530225c48075607120000b9d/533c91f7a370709d40000592_terminal.gif);
+  background-image: url(../images/terminal.gif);
   background-position: 50% 50%;
   background-size: contain;
   background-repeat: no-repeat;
 }
 .content-image.poly {
-  background-image: url(http://uploads.webflow.com/530225c48075607120000b9d/533cb42231dd1b146c00071e_poly.png);
+  background-image: url(../images/poly.png);
   background-position: 50% 50%;
   background-size: contain;
   background-repeat: no-repeat;
 }
 .content-image.opengl {
-  background-image: url(http://uploads.webflow.com/530225c48075607120000b9d/533cb7ca31dd1b146c000761_opengl.png);
+  background-image: url(../images/opengl.png);
   background-position: 50% 50%;
   background-size: contain;
   background-repeat: no-repeat;
