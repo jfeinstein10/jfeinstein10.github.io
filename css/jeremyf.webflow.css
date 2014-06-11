@@ -249,114 +249,69 @@ p {
   margin: 4px 16px;
   float: left;
   clear: none;
+  background-position: 50% 50%;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 .content-image.vim {
   background-image: url(../images/vim.png);
-  background-position: 50% 50%;
-  background-size: contain;
-  background-repeat: no-repeat;
 }
 .content-image.intellij {
   background-image: url(../images/intellij.jpg);
-  background-position: 50% 50%;
-  background-size: contain;
-  background-repeat: no-repeat;
 }
 .content-image.android {
   background-image: url(../images/android.png);
-  background-position: 50% 50%;
-  background-size: contain;
-  background-repeat: no-repeat;
 }
 .content-image.python {
   background-image: url(../images/python.png);
-  background-position: 50% 50%;
-  background-size: contain;
-  background-repeat: no-repeat;
 }
 .content-image.opencv {
   background-image: url(../images/opencv.png);
-  background-position: 50% 50%;
-  background-size: contain;
-  background-repeat: no-repeat;
 }
 .content-image.nodejs {
   background-image: url(../images/nodejs.png);
-  background-position: 50% 50%;
-  background-size: contain;
-  background-repeat: no-repeat;
 }
 .content-image.cornell {
   background-image: url(../images/cornell.svg);
-  background-position: 50% 50%;
-  background-size: contain;
-  background-repeat: no-repeat;
 }
 .content-image.jericho {
   background-image: url(../images/jericho.png);
-  background-position: 50% 50%;
-  background-size: contain;
-  background-repeat: no-repeat;
+}
+.content-image.flatiron {
+  background-image: url(../images/flatiron.png);
 }
 .content-image.aviary {
   background-image: url(../images/aviary.png);
-  background-position: 50% 50%;
-  background-size: contain;
-  background-repeat: no-repeat;
+}
+.content-image.aviary {
+  background-image: url(../images/aviary.png);
 }
 .content-image.mopub {
   background-image: url(../images/mopub.png);
-  background-position: 50% 50%;
-  background-size: contain;
-  background-repeat: no-repeat;
 }
 .content-image.sonicpanther {
   background-image: url(../images/sonicpanther.png);
-  background-position: 50% 50%;
-  background-size: contain;
-  background-repeat: no-repeat;
 }
 .content-image.brookhaven {
   background-image: url(../images/brookhaven.jpg);
-  background-position: 50% 50%;
-  background-size: contain;
-  background-repeat: no-repeat;
 }
 .content-image.slidingmenu {
   background-image: url(../images/slidingmenu.png);
-  background-position: 50% 50%;
-  background-size: contain;
-  background-repeat: no-repeat;
 }
 .content-image.beacon {
   background-image: url(../images/beacon.png);
-  background-position: 50% 50%;
-  background-size: contain;
-  background-repeat: no-repeat;
 }
 .content-image.web {
   background-image: url(../images/web.png);
-  background-position: 50% 50%;
-  background-size: contain;
-  background-repeat: no-repeat;
 }
 .content-image.terminal {
   background-image: url(../images/terminal.gif);
-  background-position: 50% 50%;
-  background-size: contain;
-  background-repeat: no-repeat;
 }
 .content-image.poly {
   background-image: url(../images/poly.png);
-  background-position: 50% 50%;
-  background-size: contain;
-  background-repeat: no-repeat;
 }
 .content-image.opengl {
   background-image: url(../images/opengl.png);
-  background-position: 50% 50%;
-  background-size: contain;
-  background-repeat: no-repeat;
 }
 @media (max-width: 991px) {
   h2 {
