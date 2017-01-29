@@ -1,0 +1,39 @@
+.post {
+
+	blockquote {
+		border-left: 2px solid #ccc;
+		font-family: Open Sans, Helvetica, Arial, sans-serif;
+		font-size: 1.25rem;
+		padding: 1rem;
+		margin-left: 0;
+		margin-right: 0;
+		p:last-child {
+			margin-bottom: 0;
+		}
+	}
+
+	pre, code {
+		font-family: Inconsolata, monospace;
+		font-size: 0.95rem;
+	}
+
+	pre {
+		padding: 0 1rem;
+	}
+
+	a {
+		color: $material-blue-500;
+		&:hover {
+			color: $material-blue-600;
+			background-color: $material-blue-50;
+			border-bottom: 1px solid $material-blue-600;
+			text-decoration: none;
+		}
+	}
+
+	img {
+		max-width: 100%;
+		margin: auto;
+	}
+
+}

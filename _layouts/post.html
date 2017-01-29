@@ -1,5 +1,25 @@
 ---
-layout: default
+layout: default_card
 ---
-{% include JB/setup %}
-{% include themes/jeremy/post.html %}
+
+<div class="post">
+	<h1 class="text-center">
+		{{ page.title }}
+	</h1>
+	<p class="text-spacing-2 text-uppercase text-muted text-center">
+		<small>
+			{{ page.date | date: "%B %d, %Y" }}
+		</small>
+	</p>
+	{% if page.description %}
+	<p class="description p-4 mb-3">
+		{{ page.description }}
+	</p>
+	{% else %}
+	<hr>
+	{% endif %}
+
+	<div class="content">
+		{{ content }}
+	</div>
+</div>

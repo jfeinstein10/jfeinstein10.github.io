@@ -1,0 +1,19 @@
+{
+  "name": "jfeinstein10.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jfeinstein10/jfeinstein10.github.io.git"
+  },
+  "author": "Jeremy Feinstein <j.feinstein10@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jfeinstein10/jfeinstein10.github.io/issues"
+  },
+  "homepage": "https://github.com/jfeinstein10/jfeinstein10.github.io#readme"
+}

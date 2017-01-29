@@ -1,0 +1,56 @@
+.card {
+	color: #222;
+	border-radius: 1px;
+	border: none;
+
+	+ .card {
+		margin-top: 15px;
+	}
+}
+
+.bg-transparent {
+	background: transparent!important;
+}
+
+.btn {
+	&:hover {
+		cursor: pointer;
+	}
+}
+
+.navbar-toggler {
+	border: none;
+}
+
+.navbar-collapse {
+	&.collapsing, &.show {
+		background: $background;
+	}
+}
+
+.form-control {
+	border-radius: 0;
+	border-top: 0;
+	border-left: 0;
+	border-right: 0;
+	&:focus {
+		border-color: $material-blue-200;
+	}
+}
+
+.btn-primary {
+	background-color: $material-blue-300;
+	border-color: $material-blue-300;
+	&:active, &:hover {
+		background-color: $material-blue-500;
+		border-color: $material-blue-500;
+	}
+}
+
+.progress-bar {
+	background: $material-blue-300;
+}
+
+.display-1, .display-2, .display-3, .display-4 {
+	text-transform: none;
+}

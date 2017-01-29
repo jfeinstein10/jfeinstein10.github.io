@@ -1,0 +1,199 @@
+$background: #2e334a;
+
+$material-cyan-50:  #E0F7FA;
+$material-cyan-100: #B2EBF2;
+$material-cyan-200: #80DEEA;
+$material-cyan-300: #4DD0E1;
+$material-cyan-400: #26C6DA;
+$material-cyan-500: #00BCD4;
+$material-cyan-600: #00ACC1;
+$material-cyan-700: #0097A7;
+$material-cyan-800: #00838F;
+$material-cyan-900: #006064;
+
+$material-blue-50: #E1F5FE;
+$material-blue-100: #B3E5FC;
+$material-blue-200: #81D4FA;
+$material-blue-300: #4FC3F7;
+$material-blue-400: #29B6F6;
+$material-blue-500: #03A9F4;
+$material-blue-600: #039BE5;
+$material-blue-700: #0288D1;
+$material-blue-800: #0277BD;
+$material-blue-900: #01579B;
+
+$material-amber-50:  #FFF8E1;
+$material-amber-100: #FFECB3;
+$material-amber-200: #FFE082;
+$material-amber-300: #FFD54F;
+$material-amber-400: #FFCA28;
+$material-amber-500: #FFC107;
+$material-amber-600: #FFB300;
+$material-amber-700: #FFA000;
+$material-amber-800: #FF8F00;
+$material-amber-900: #FF6F00;
+
+$highlight-blue: $material-blue-100;
+$highlight-blue-darker: $material-blue-200;
+
+$highlight-amber: $material-amber-300;
+$highlight-amber-darker: $material-amber-400;
+
+$shadow: 0px 3px 5px -1px rgba(0, 0, 0, 0.2), 0px 6px 10px 0px rgba(0, 0, 0, 0.14), 0px 1px 18px 0px rgba(0, 0, 0, 0.12);
+
+html {
+	background: $background;
+}
+body {
+	background: transparent;
+}
+html, body {
+	height: 100%;
+	width: 100%;
+}
+
+html, body, button, input, optgroup, select, textarea {
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-text-size-adjust: 100%;
+	text-rendering: optimizeLegibility;
+	font-feature-settings: "kern" 1;
+  -webkit-font-feature-settings: "kern";
+  -moz-font-feature-settings: "kern";
+  -moz-font-feature-settings: "kern=1";
+  font-kerning: normal;
+	font-family: Roboto Slab,Open Sans,Helvetica,Arial,sans-serif;
+}
+
+body {
+	font-weight: 400;
+	color: white;
+	font-size: 16px;
+	line-height: 1.45;
+}
+
+.heading {
+	font-family: Open Sans,Helvetica,Arial,sans-serif;
+	font-style: inherit;
+	font-weight: 800;
+	text-transform: uppercase;
+}
+
+h1, h2, h3, h4, h5, .display-1, .display-2, .display-3, .display-4 {
+	@extend .heading;
+	margin: 0 0 0.25rem;
+	line-height: 1.2;
+}
+h1 {
+	font-size: 2.441rem;
+}
+h2 {
+	font-size: 1.953rem;
+}
+h3 {
+	font-size: 1.563rem;
+}
+h4 {
+	font-size: 1.25rem;
+}
+h5 {
+	font-family: Roboto Slab,Open Sans,Helvetica,Arial,sans-serif;
+	font-size: 1.00rem;
+	font-weight: 700;
+	text-transform: inherit;
+}
+p {
+	font-size: 1.000em;
+	text-align: justify;
+}
+hr {
+	border-color: #ccc;
+}
+
+.description {
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+}
+
+.text-spacing-2 {
+	letter-spacing: 2px;
+}
+
+.container {
+	@media (min-width: 576px) and (max-width: 768px) {
+		width: 100%;
+	}
+}
+
+.fancybox-title {
+	font-family: Roboto Slab,Open Sans,Helvetica,Arial,sans-serif!important;
+	font-size: 1rem !important;
+	padding: 1rem !important;
+}
+
+a.icon-link, a.no-link {
+	text-decoration: none;
+	color: inherit;
+	&:focus, &:hover {
+		text-decoration: none;
+	}
+}
+
+a.icon-link {
+	@extend a.no-link;
+	&:focus, &:hover {
+		color: $material-blue-100;
+	}
+}
+
+
+a.sidebar--link {
+	@extend h3;
+	color: white;
+	text-transform: uppercase;
+	font-weight: 800;
+	&:focus, &:hover {
+		color: $material-blue-100;
+		text-decoration: none;
+	}
+	&.active {
+		cursor: default;
+		color: $highlight-blue-darker;
+		&:focus, &:hover, &:active {
+			color: $highlight-blue-darker;
+			text-decoration: none;
+		}
+	}
+}
+
+.canvas--background {
+	z-index: -1;
+	background-color: $background;
+}
+
+.container--main {
+	@media (max-width:992px) {
+		margin-top: -67px;
+		padding-top: 67px;
+	}
+	.card {
+		box-shadow: $shadow;
+	}
+}
+
+.list--experience {
+	img {
+		width: 64px;
+		height: 64px;
+		object-fit: contain;
+	}
+}
+
+.rounded-1 {
+	border-radius: 1px;
+}
+
+.shadow-6 {
+	box-shadow: $shadow;
+}
+

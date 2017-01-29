@@ -1,6 +1,53 @@
----
-theme :
-  name : jeremy
----
-{% include JB/setup %}
-{% include themes/jeremy/default.html %}
+<!DOCTYPE html>
+<html>
+  <head>
+    {% include head.html %}
+    {% seo %}
+  </head>
+  <body>
+
+    <div class="container py-2 hidden-lg-up" style="z-index: 100;">
+      <div class="dropdown d-inline-block">
+	<button class="btn bg-transparent text-white" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+	  <i class="material-icons" style="line-height: 1.25;">menu</i>
+	</button>
+	<div class="dropdown-menu rounded-1 border-0 shadow-6" aria-labelledby="dropdownMenuButton">
+	  <a class="dropdown-item" href="/about">About</a>
+	  <a class="dropdown-item" href="/experience">Experience</a>
+	  <a class="dropdown-item" href="/projects">Projects</a>
+	  <a class="dropdown-item" href="/skills">Skills</a>
+	  <a class="dropdown-item" href="/blog">Blog</a>
+	  <a class="dropdown-item" href="/contact">Contact</a>
+	</div>
+      </div>
+      <a href="/">
+	<img class="rounded-circle" src="/images/Headshot.jpg" style="height: 36px;">
+      </a>
+    </div>
+
+    <div class="container container--main h-100">
+      <div class="row row--main h-100">
+
+	<div class="col-xl-3 col-lg-3 col-md-12 hidden-md-down col-sm-12 col-xs-12 h-100 d-flex align-items-center">
+	  <div style="position: fixed;">
+	    {% include sidebar.html %}
+	  </div>
+	</div>
+
+	<div class="col-xl-9 col-lg-9 col-md-12 col-sm-12 col-xs-12 col--main d-flex flex-column">
+	  <div class="pt-lg-5 px-md-3 px-sm-3 align-self-stretch" style="max-width: 800px; flex: 1;">
+	    {{ content }}
+	  </div>
+	  <div class="px-3 py-4">
+	    <small>
+	      © 2017 Jeremy Feinstein. All rights reserved.
+	    </small>
+	  </div>
+	</div>
+
+      </div>
+    </div>
+
+    {% include scripts.html %}
+  </body>
+</html>

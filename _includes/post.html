@@ -1,0 +1,24 @@
+<div>
+	<a href="{{ include.post.url }}" class="no-link">
+		<h2>
+			<strong>
+				{{ include.post.title }}
+			</strong>
+		</h2>
+	</a>
+	<p style="margin-top: -0.5em;">
+		<small class="text-spacing-2 text-uppercase text-muted">
+			{{ include.post.date | date: "%B %d, %Y" }}
+		</small>
+		<br>
+		{{ include.post.description }}
+		<br>
+		<a href="{{ include.post.url }}" class="no-link">
+			<small class="text-muted">
+				Read more...
+			</small>
+		</a>
+	</p>
+	<p>
+	</p>
+</div>
