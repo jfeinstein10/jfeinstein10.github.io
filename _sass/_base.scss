@@ -52,7 +52,7 @@ html, body {
 	width: 100%;
 }
 
-html, body, button, input, optgroup, select, textarea {
+html, body, button, input, optgroup, select, textarea, p, small, div, span {
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	-webkit-text-size-adjust: 100%;
@@ -63,6 +63,7 @@ html, body, button, input, optgroup, select, textarea {
   -moz-font-feature-settings: "kern=1";
   font-kerning: normal;
 	font-family: Roboto Slab,Open Sans,Helvetica,Arial,sans-serif;
+	font-weight: 300;
 }
 
 body {
@@ -127,6 +128,7 @@ hr {
 
 .fancybox-title {
 	font-family: Roboto Slab,Open Sans,Helvetica,Arial,sans-serif!important;
+	font-weight: 300;
 	font-size: 1rem !important;
 	padding: 1rem !important;
 }
